@@ -8,7 +8,10 @@ G.add_edges_from([('v1','v2'),('v1','v3'),('v2','v3'),('v2','v4'),('v3','v4'),('
 print(nx.is_directed(G))
 print(nx.is_weighted(G))
 
-nx.draw(G,with_labels=True,pos=nx.spring_layout(G))
+G1=nx.draw(G,with_labels=True,pos=nx.spring_layout(G))
+
+
+
 
 
 
